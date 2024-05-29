@@ -853,7 +853,7 @@ class KallsymsFinder:
             and 'ia64' not in self.version_string.lower()
             and 'itanium' not in self.version_string.lower()):
             
-            likely_has_base_relative = True
+            likely_has_base_relative = False
         
         # Does the system seem to be 64-bits?
         
