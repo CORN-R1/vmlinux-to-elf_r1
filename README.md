@@ -1,4 +1,12 @@
-# vmlinux-to-elf
+# R1-specific instructions:
+
+This repo is a very minor fork of https://github.com/marin-m/vmlinux-to-elf with a fix to make it work with Rabbit R1 kernel dumps.
+
+Simply clone and run `./vmlinux-to-elf` with option `--base-address 0xffffff8008080000` specified.
+
+Based on the change described in https://github.com/marin-m/vmlinux-to-elf/issues/59
+
+# vmlinux-to-elf (upstream README below)
 
 This tool allows to obtain a fully analyzable .ELF file from a vmlinux/vmlinuz/bzImage/zImage kernel image (either a raw binary blob or a preexisting but stripped .ELF file), with recovered function and variable symbols.
 
