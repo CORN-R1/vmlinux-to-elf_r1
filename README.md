@@ -1,10 +1,18 @@
-# R1-specific instructions:
+# R1-specific vmlinux-to-elf
 
-This repo is a very minor fork of https://github.com/marin-m/vmlinux-to-elf with a fix to make it work with Rabbit R1 kernel dumps.
+Original Source : [https://firmburrow.rabbitu.de/retr0id/vmlinux-to-elf-r1](https://firmburrow.rabbitu.de/retr0id/vmlinux-to-elf-r1)
+
+First Published on : **May 29, 2024 at 07:56 PM GMT+2**
+
+-----------------------
+
+This repo is a very minor fork - **by [DavidBuchanan314](https://github.com/DavidBuchanan314)** - of https://github.com/marin-m/vmlinux-to-elf with a fix to make it work with CORN R1 kernel dumps.
 
 Simply clone and run `./vmlinux-to-elf` with option `--base-address 0xffffff8008080000` specified.
 
 Based on the change described in https://github.com/marin-m/vmlinux-to-elf/issues/59
+
+-----------------------
 
 # vmlinux-to-elf (upstream README below)
 
